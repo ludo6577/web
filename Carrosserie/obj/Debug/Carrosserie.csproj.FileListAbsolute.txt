@@ -1,0 +1,5 @@
+D:\Developpement\AspWeb2012\WebSite\Carrosserie\bin\Carosserie.dll
+D:\Developpement\AspWeb2012\WebSite\Carrosserie\bin\Carosserie.pdb
+D:\Developpement\AspWeb2012\WebSite\Carrosserie\obj\Debug\Carrosserie.csprojResolveAssemblyReference.cache
+D:\Developpement\AspWeb2012\WebSite\Carrosserie\obj\Debug\Carosserie.dll
+D:\Developpement\AspWeb2012\WebSite\Carrosserie\obj\Debug\Carosserie.pdb
