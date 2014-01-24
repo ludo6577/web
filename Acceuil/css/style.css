@@ -1,0 +1,378 @@
+﻿/*------------------------------------------------- 
+                    GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: black;
+    background-color: white;
+    font-size: 14px;
+}
+
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+/*-------------------------------------------------
+                  THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: absolute;
+    top: 0px;
+    z-index: 20;
+}
+
+/* Internal navbar */
+.navbar .navbar-collapse {
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+
+
+/*-------------------------------------------------
+                  THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 700px;
+    margin-bottom: 0px;
+}
+
+    /* Carroussel height */
+    .carousel .item {
+        height: 700px;
+        padding-top: 100px;
+    }
+
+/* Carroussel background */
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 1000px;
+    width: 100%;
+    height: 700px;
+}
+
+.avatar {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 20px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+}
+
+/*  Carroussel avatar */
+.carousel-inner .avatar {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.carousel-inner .avatar img {
+    -webkit-border-radius: 225px;
+    -moz-border-radius: 225px;
+    -ms-border-radius: 225px;
+    -o-border-radius: 225px;
+    border-radius: 225px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*  Carroussel heading */
+.carousel-inner .item .right .heading {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+/*  Carroussel texte */
+.carousel-inner .item .right {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.carousel-inner .item .right .background {
+    background-color: rgba(0, 0, 0, 0.2);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+/*  Carroussel boutons */
+.carousel-inner .btn {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    margin-right: 40px;
+}
+
+
+/*-----------------------------------------------
+                EXPERIENCES
+-------------------------------------------------- */
+.experiences {
+    background-color: #f4debe;
+}
+
+.section {
+    padding: 90px 0;
+}
+
+.section .heading {
+    font-family: "Josefin Slab Light";
+    color: #bc341b;
+    font-size: 3em;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.timeline {
+    background-image: url('/img/vertical-line.png');
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+    max-width: 960px;
+    margin: 0px auto;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    padding: 0px;
+    list-style-type: none;
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+}
+
+    .timeline .year {
+        background: #cf5037;
+        font-size: 1em;
+        line-height: 4;
+        color: #f4debe;
+        width: 6em;
+        border-radius: 50%;
+        margin-top: 0;
+        margin-bottom: 0px;
+        max-width: 4em;
+        clear: both;
+        margin: 1em auto;
+        text-align: center;
+    }
+
+    .timeline .year:first-of-type {
+        margin-top: 0 !important;
+    }
+
+    .timeline .event.left {
+        float: left;
+        clear: left;
+        width: 45%;
+        margin: 0px 2.5% 150px 2.5%;
+    }
+
+    .timeline .event.right {
+        float: right;
+        clear: right;
+        width: 45%;
+        margin: 150px 2.5% 0px 2.5%;
+    }
+
+    .timeline .event {
+        width: 100%;
+        position: relative;
+        background: #f5e2c7;
+        border-color: #e5b267;
+        text-align: center;
+        float: right;
+        clear: right;
+        width: 45%;
+        margin: 10px 2.5%;
+        border-radius: 10px;
+        list-style-type: none;
+        display: block;
+        padding: .4em;
+        z-index: 15;
+        color: #4d4d4d;
+        border: 1px solid #9d9d9d;
+        text-decoration: none;
+        -webkit-transition: background .15s linear;
+        -moz-transition: background .15s linear;
+        -ms-transition: background .15s linear;
+        -o-transition: background .15s linear;
+        transition: background .15s linear;
+    }
+
+    .timeline .event.left:after {
+        right: -5%;
+        left: auto;
+    }
+
+    .timeline .event:after {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+        width: 15.4px;
+        height: 2.4px;
+        border-color: #f4debe;
+        border-width: 5px;
+        background: #cf5037;
+        top: 40%;
+        left: -20px;
+        content: ' ';
+        position: absolute;
+    }
+
+    *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+       .timeline .heading {
+        color: #2067ca;
+        font-weight: 700;
+        font-size: 1.2em;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .timeline .month {
+        display: block;
+        margin-bottom: 15px;
+        color: #aea08b;
+        font-size: 0.9em;
+        text-align: left;
+    }
+
+    .timeline .month .glyphicon {
+        margin-right: 5px;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    .timeline .event img {
+        margin: 10px;
+        max-width: 50%;
+        max-height: 40px;
+    }
+
+
+    /*-----------------------------------------------
+                COMPETENCES
+    -------------------------------------------------- */
+    .competences {
+        background-color: #c3e5ff;
+    }
+
+
+
+    /*-----------------------------------------------
+                CONTACT
+    -------------------------------------------------- */
+    #map-canvas { height: 400px;}
+    #directionsPanel { overflow-y: auto;}
+
+
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+    /* Remove the edge padding needed for mobile */
+    .marketing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+
+        .navbar-wrapper .container {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .navbar-wrapper .navbar {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
