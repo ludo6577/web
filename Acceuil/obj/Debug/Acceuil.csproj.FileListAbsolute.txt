@@ -1,6 +1,0 @@
-C:\Users\Ludovic\Documents\workspaces\web\Acceuil\bin\Acceuil.dll.config
-C:\Users\Ludovic\Documents\workspaces\web\Acceuil\bin\Acceuil.dll
-C:\Users\Ludovic\Documents\workspaces\web\Acceuil\bin\Acceuil.pdb
-C:\Users\Ludovic\Documents\workspaces\web\Acceuil\obj\Debug\Acceuil.csprojResolveAssemblyReference.cache
-C:\Users\Ludovic\Documents\workspaces\web\Acceuil\obj\Debug\Acceuil.dll
-C:\Users\Ludovic\Documents\workspaces\web\Acceuil\obj\Debug\Acceuil.pdb

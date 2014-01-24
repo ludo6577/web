@@ -1,5 +1,0 @@
-D:\Developpement\AspWeb2012\WebSite\Carosserie\bin\Carosserie.dll
-D:\Developpement\AspWeb2012\WebSite\Carosserie\bin\Carosserie.pdb
-D:\Developpement\AspWeb2012\WebSite\Carosserie\obj\Debug\Carosserie.csprojResolveAssemblyReference.cache
-D:\Developpement\AspWeb2012\WebSite\Carosserie\obj\Debug\Carosserie.dll
-D:\Developpement\AspWeb2012\WebSite\Carosserie\obj\Debug\Carosserie.pdb
