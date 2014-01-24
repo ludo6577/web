@@ -39,7 +39,7 @@ display: block;
 
 /* Internal navbar */
 .navbar .navbar-collapse {
-    width: 600px;
+    width: 800px;
     margin: auto;
     font-size: 20px;
 }
@@ -116,7 +116,7 @@ display: block;
 
 /*  Carroussel texte */
 .carousel-inner .item .right {
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
@@ -135,7 +135,8 @@ display: block;
     display: inline-block;
     vertical-align: middle;
     zoom: 1;
-    margin-right: 40px;
+    margin: 5px;
+    margin-bottom: 30px;
 }
 
 
@@ -314,7 +315,65 @@ display: block;
     #map-canvas { height: 400px;}
     #directionsPanel { overflow-y: auto;}
 
+    .contact-form input#name, .contact-form input#email {
+        width: 49%;
+    }
 
+    .contact-form input#email {
+        float: right;
+    }
+
+    .contact-form input#subject {
+        width: 100%;
+    }
+
+    textarea {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+        background-color: #f3e4cd;
+        border: 1px solid #e9cea3;
+        color: #d0973d;
+    }
+
+    .contact-form input, .contact-form textarea {
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: middle;
+        zoom: 1;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 12px;
+        margin-bottom: 7px;
+        min-height: 3em;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+        display: block;
+        padding: 14px;
+        min-height: 160px;
+    }
+
+    .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+        background-color: #f3e4cd;
+        border: 1px solid #e9cea3;
+        color: #d0973d;
+    }
 
 
 /* Featurettes
@@ -331,6 +390,17 @@ display: block;
     letter-spacing: -1px;
 }
 
+.thumbnails {
+    list-style:none;
+}
+
+.thumbnail > img {
+display: block;
+height: auto;
+max-width: 1000%;
+margin-right: auto;
+margin-left: auto;
+}
 
 
 /* RESPONSIVE CSS

@@ -1,6 +1,4 @@
 ﻿
-/**
-  * LOL
 
 $(function () {
 
@@ -40,5 +38,3 @@ $(function () {
     });
 
 })(jQuery);
-
-*/

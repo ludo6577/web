@@ -60,7 +60,7 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="CV_Ludovic_Feltz.pdf" />
+    <Content Include="contact.asp" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,9 +77,7 @@
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery.js" />
-    <Content Include="contact.asp" />
     <Content Include="css\style.css" />
-    <Content Include="googleed88e3039fd0010e.html" />
     <Content Include="img\code.png" />
     <Content Include="img\ludovic.jpg" />
     <Content Include="index.html" />
@@ -89,7 +87,6 @@
     <Content Include="js\smoothScroll.js" />
     <Content Include="js\tracking.js" />
     <Content Include="projets.html" />
-    <Content Include="sitemap.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
