@@ -1,0 +1,5 @@
+Nom de la base de données :	db512302245
+Nom d'hôte :			db512302245.db.1and1.com
+Nom d'utilisateur :		dbo512302245
+Description :			lfeltz
+Etat :	 			configuration initiée

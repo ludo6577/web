@@ -315,19 +315,21 @@ display: block;
     #map-canvas { height: 400px;}
     #directionsPanel { overflow-y: auto;}
 
-    .contact-form input#name, .contact-form input#email {
+
+    .contact-form #name, .contact-form #email {
         width: 49%;
     }
 
-    .contact-form input#email {
+    .contact-form #email {
         float: right;
     }
 
-    .contact-form input#subject {
+    .contact-form #subject {
         width: 100%;
     }
 
-    textarea {
+        
+    .contact-form #textarea {
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         -ms-border-radius: 3px;
@@ -339,9 +341,14 @@ display: block;
         background-color: #f3e4cd;
         border: 1px solid #e9cea3;
         color: #d0973d;
+        width:100%;
+        width: 100%;
+        display: block;
+        padding: 14px;
+        min-height: 160px;
     }
 
-    .contact-form input, .contact-form textarea {
+    .contact-form input{
         display: -moz-inline-stack;
         display: inline-block;
         vertical-align: middle;
@@ -352,16 +359,10 @@ display: block;
         padding: 12px;
         margin-bottom: 7px;
         min-height: 3em;
+
     }
 
-    .contact-form textarea {
-        width: 100%;
-        display: block;
-        padding: 14px;
-        min-height: 160px;
-    }
-
-    .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    .contact-form input[type="text"], .contact-form input[type="email"]{
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         -ms-border-radius: 3px;

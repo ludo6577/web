@@ -82,7 +82,6 @@
     <Content Include="img\picts\img2.jpg" />
     <Content Include="img\picts\img3.jpg" />
     <Content Include="index.html" />
-    <Content Include="index_OLD.html" />
     <Content Include="js\googleMap.js" />
     <Content Include="js\holder.js" />
     <Content Include="js\smoothScroll.js" />
@@ -97,7 +96,6 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="forum.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,9 @@
+D:\Developpement\ASP_Websites\web\SQLDatabaseProj\SQLDatabaseProj\bin\Debug\SQLDatabaseProj.dacpac
+D:\Developpement\ASP_Websites\web\SQLDatabaseProj\SQLDatabaseProj\bin\Debug\SQLDatabaseProj.dll
+D:\Developpement\ASP_Websites\web\SQLDatabaseProj\SQLDatabaseProj\bin\Debug\SQLDatabaseProj.pdb
+D:\Developpement\ASP_Websites\web\SQLDatabaseProj\SQLDatabaseProj\obj\Debug\Model.xml
+D:\Developpement\ASP_Websites\web\SQLDatabaseProj\SQLDatabaseProj\obj\Debug\refactor.xml
+D:\Developpement\ASP_Websites\web\SQLDatabaseProj\SQLDatabaseProj\obj\Debug\postdeploy.sql
+D:\Developpement\ASP_Websites\web\SQLDatabaseProj\SQLDatabaseProj\obj\Debug\predeploy.sql
+D:\Developpement\ASP_Websites\web\SQLDatabaseProj\SQLDatabaseProj\obj\Debug\SQLDatabaseProj.dll
+D:\Developpement\ASP_Websites\web\SQLDatabaseProj\SQLDatabaseProj\obj\Debug\SQLDatabaseProj.pdb

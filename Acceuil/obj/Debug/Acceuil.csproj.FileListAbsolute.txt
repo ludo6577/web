@@ -1,0 +1,5 @@
+D:\Developpement\ASP_Websites\web\Acceuil\bin\Acceuil.dll
+D:\Developpement\ASP_Websites\web\Acceuil\bin\Acceuil.pdb
+D:\Developpement\ASP_Websites\web\Acceuil\obj\Debug\Acceuil.csprojResolveAssemblyReference.cache
+D:\Developpement\ASP_Websites\web\Acceuil\obj\Debug\Acceuil.dll
+D:\Developpement\ASP_Websites\web\Acceuil\obj\Debug\Acceuil.pdb
