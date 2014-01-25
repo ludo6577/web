@@ -4,11 +4,11 @@
 
 <!-- HEADER -->
 <head>
-    <title>Ludovicc Feltz</title>
+    <title>Feltz Ludovic Developpeur .NET, actuellement développeur C# chez Coptis j'ai étudier à l'ESIPE (ex-Ingenieur2000), après avoir obtenu mon diplome DUT Informatique à Marne la valleé.</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="CV de Ludovic Feltz, Experiences, Compétences, Loisirs, Contact" />
-    <meta name="author" content="Ludovic Feltz" />
+    <meta name="description" content="Présentation CV intéractif des Projets réalisés en C#, Java, C/C++,.. Experiences en web ASP, PHP, Javascript,... Loisirs, Contact, " />
+    <meta name="author" content="Feltz Ludovic" />
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png" />
 
     <!-- Bootstrap core CSS -->
@@ -29,7 +29,7 @@
             <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="index.html">Feltz Ludovic</a>
+                        <a class="navbar-brand" href="https://plus.google.com/u/0/+LudovicFeltz?rel=author">Feltz Ludovic</a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
@@ -46,15 +46,7 @@
         </div>
     </div>
     <!-- END OF NAVBAR -->
-    <!--    Author: Ludovic Feltz <a href="https://plus.google.com/u/0/+LudovicFeltz?rel=author">Google</a>
-    <div itemscope itemtype="http://data-vocabulary.org/Person">
-        Page perso <a href="http://feltz.fr" itemprop="url">feltz.fr</a> de <span itemprop="name">Ludovic Feltz</span>,
-        Vivant à <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
-            <span itemprop="locality">Crécy la chapelle</span>,
-            <span itemprop="region">France</span>
-        </span>
-        <span itemprop="title">ingénieur en développement informatique</span> chez <span itemprop="affiliation">Coptis</span>.
-    </div> -->
+
     <!--------------------------------------------
                     CAROUSEL
     ----------------------------------------------->
@@ -74,17 +66,21 @@
                         </div>
                         <div class="col-md-6 right">
                             <div class="background">
-                                <h1 class="hide">Feltz Ludovic</h1>
-                                <div itemscope=itemscope itemtype="http://data-vocabulary.org/Person">
-                                    <span itemprop="name">
-                                        <h2 class="heading">Feltz Ludovic</h2>
+                                <div class="itemscope" xmlns:v="http://data-vocabulary.org/Person"> <!-- RDFa Person -->
+                                        <h2 class="heading">
+                                            <span rel="v:name">    <!-- RDFa name --> 
+                                                <a class="linkedin" href="http://www.linkedin.com/profile/view?id=313453680">Feltz Ludovic</a>
+                                            </span>
+                                        </h2>
+                                    <span rel="v:title">
+                                        Ingénieur en développement C#.NET, Java
                                     </span>
-                                    <span itemprop="role">
-                                        Developpeur C#.NET
-                                    </span>
-                                    <span itemprop="address" itemscope=itemscope itemtype="http://data-vocabulary.org/Address">
-                                        <span itemprop="locality">
-                                            France
+                                        <span rel="v:title">Developpeur chez </span><span property="v:affiliation"><a href="http://coptis.com">Coptis</a></span>.
+                                    </div>
+                                    <span rel="v.address" itemtype="http://data-vocabulary.org/Address">
+                                        <span typeof="v:Address">
+                                            <span property="v:locality">France</span>,
+                                            <span property="v:region">Ile-de-france</span>
                                         </span>
                                     </span>
                                 </div>
@@ -483,7 +479,6 @@
                 </div>
             </div>
         </div>
-        Author: Ludovic Feltz <a href="https://plus.google.com/u/0/+LudovicFeltz?rel=author">Google</a>
     </section>
 
 
